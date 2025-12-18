@@ -15,13 +15,13 @@ Each operation is benchmarked with both single-threaded and multi-threaded imple
 
 ## Features
 
-- ✅ **Multithreaded computation** using POSIX threads (pthreads)
-- ✅ **Tiled matrix multiplication** for improved cache performance
-- ✅ **High-precision timing** using `clock_gettime(CLOCK_MONOTONIC)`
-- ✅ **Performance metrics**: execution time, GFLOPS, speedup, parallel efficiency
-- ✅ **Flexible I/O**: supports both text and binary file formats
-- ✅ **Graceful interruption** via SIGINT (Ctrl+C)
-- ✅ **Batch mode**: run all operations sequentially with `--op all`
+- **Multithreaded computation** using POSIX threads (pthreads)
+- **Tiled matrix multiplication** for improved cache performance
+- **High-precision timing** using `clock_gettime(CLOCK_MONOTONIC)`
+- **Performance metrics**: execution time, GFLOPS, speedup, parallel efficiency
+- **Flexible I/O**: supports both text and binary file formats
+- **Graceful interruption** via SIGINT (Ctrl+C)
+- **Batch mode**: run all operations sequentially with `--op all`
 
 ## Requirements
 
